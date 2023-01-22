@@ -55,7 +55,7 @@ return packer.startup(function(use)
     use "lewis6991/impatient.nvim"
 
     -- Color scheme
-    use "ofirgall/ofirkai.nvim"
+    use "vE5li/monokai.nvim"
 
     -- cmp plugins
     use "hrsh7th/nvim-cmp" -- completion plugin
