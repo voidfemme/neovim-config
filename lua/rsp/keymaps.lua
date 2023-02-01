@@ -45,13 +45,7 @@ keymap("v", "p", '"_dP', opts)
 -- Press jk fast to enter normal mode
 keymap("i", "jk", "<ESC>", opts)
 
--- Visual --
--- Stay in indent mode
-keymap("v", "<", "<gv", opts)
-keymap("v", ">", ">gv", opts)
-
 -- Plugins --
-
 -- NvimTree
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
