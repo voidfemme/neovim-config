@@ -63,8 +63,8 @@ return packer.startup(function(use)
 
 	-- Color scheme
 	use("vE5li/monokai.nvim")
-    -- Shade
-    use("sunjon/shade.nvim")
+	-- Shade
+	use("sunjon/shade.nvim")
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- completion plugin
@@ -75,12 +75,13 @@ return packer.startup(function(use)
 	use("L3MON4D3/LuaSnip")
 	use("rafamadriz/friendly-snippets")
 	use("hrsh7th/cmp-nvim-lsp")
-    use("numToStr/Comment.nvim")
+	use("numToStr/Comment.nvim")
 
 	-- LSP
 	use("williamboman/nvim-lsp-installer")
 	use("neovim/nvim-lspconfig")
 	use("jose-elias-alvarez/null-ls.nvim")
+	-- use("MunifTanjim/prettier.nvim")
 
 	use("williamboman/mason.nvim")
 	use("williamboman/mason-lspconfig.nvim")
@@ -104,9 +105,9 @@ return packer.startup(function(use)
 	use("rcarriga/nvim-dap-ui")
 	use("ravenxrz/DAPInstall.nvim")
 
-    -- Vimwiki
-    use("vimwiki/vimwiki")
-    -- use("chipsenkbeil/vimwiki-server.nvim")
+	-- Vimwiki
+	use("vimwiki/vimwiki")
+	-- use("chipsenkbeil/vimwiki-server.nvim")
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

@@ -20,6 +20,7 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
   pattern = { "markdown", "plaintext" },
   callback = function()
         vim.api.nvim_command("Copilot disable")
+        vim.opt_local.textwidth=80
   end,
 })
 
