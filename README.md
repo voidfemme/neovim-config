@@ -10,3 +10,9 @@ series on Youtube, I highly recommend it: https://www.youtube.com/playlist?list=
     - [ ] research mason, null-ls, lsp, language servers, treesitter, etc.
     - [ ] include important details in this readme so that I can reference how
           they interact with each other.
+
+## Mason 
+## null-ls
+## lsp
+## language servers
+## treesitter
