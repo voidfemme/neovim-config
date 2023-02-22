@@ -79,12 +79,12 @@ return packer.startup(function(use)
 
 	-- LSP
 	use("williamboman/nvim-lsp-installer")
+	use("williamboman/mason.nvim")
+	use("williamboman/mason-lspconfig.nvim")
 	use("neovim/nvim-lspconfig")
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("MunifTanjim/prettier.nvim")
 
-	use("williamboman/mason.nvim")
-	use("williamboman/mason-lspconfig.nvim")
 	use("RRethy/vim-illuminate")
 	use("onsails/lspkind.nvim")
 
@@ -106,7 +106,7 @@ return packer.startup(function(use)
 	use("ravenxrz/DAPInstall.nvim")
 
 	-- Vimwiki
-	use("vimwiki/vimwiki")
+	-- use("vimwiki/vimwiki")
 	-- use("chipsenkbeil/vimwiki-server.nvim")
 
 	-- Automatically set up your configuration after cloning packer.nvim

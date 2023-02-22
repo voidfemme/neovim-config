@@ -259,11 +259,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rsp/.local/share/nvim/site/pack/packer/start/vim-illuminate",
     url = "https://github.com/RRethy/vim-illuminate"
-  },
-  vimwiki = {
-    loaded = true,
-    path = "/home/rsp/.local/share/nvim/site/pack/packer/start/vimwiki",
-    url = "https://github.com/vimwiki/vimwiki"
   }
 }
 

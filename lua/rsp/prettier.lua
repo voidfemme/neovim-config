@@ -11,6 +11,7 @@ prettier.setup({
         "graphql",
         "html",
         "javascript",
+        "python",
         "typescript",
         "typescriptreact",
     },
