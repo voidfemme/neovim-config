@@ -5,4 +5,5 @@ end
 
 require "rsp.lsp.mason"
 require("rsp.lsp.handlers").setup()
+require 'lspconfig'.pyright.setup{}
 require "rsp.lsp.null-ls"
